@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TPRO
 {
-    class ListeVilles
+    public class ListeVilles
     {
         private string[] villesTab;
         private List<Ville> listVilles = new List<Ville>();
@@ -26,9 +26,14 @@ namespace TPRO
             }
         }
 
+        public ListeVilles(List<Ville> lv)
+        {
+            this.listVilles = new List<Ville>(lv);
+        }
+
         public ListeVilles(ListeVilles villes)
         {
-            this.listVilles = villes.ListVilles;
+            this.listVilles = new List<Ville>(villes.ListVilles);
         }
 
         public Ville get(int i)

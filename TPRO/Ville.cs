@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TPRO
 {
-    class Ville
+    public class Ville
     {
         private int numero;
         public int Numero { get => this.numero; }

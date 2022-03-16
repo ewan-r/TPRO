@@ -3,22 +3,28 @@ using System.IO;
 
 namespace TPRO
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string[] fichier = ReadFile("../../../../instances/top80.txt");
+            string[] fichier = LireFichier("../../../../instances/top80.txt");
             ListeVilles villes = new ListeVilles(fichier);
             double dist = villes.get(0).Distance(villes.get(1));
-            //Console.WriteLine(dist);
-            Tournee tour = new Tournee(villes);
-            //tour.afficheTour();
-            //Console.WriteLine(tour.cout());
-            Tournee tournAlea = tour.tourAleatoire();
-            tournAlea.afficheTour();
+            AlgoCroissant aC = new AlgoCroissant(villes);
+            Tournee tC = aC.executer();
+            Console.WriteLine(tC.ToString());
+            Console.WriteLine(tC.cout());
+            AlgoAlea aA = new AlgoAlea(villes);
+            Tournee tA = aA.executer();
+            Console.WriteLine(tA.ToString());
+            Console.WriteLine(tA.cout());
+            AlgoPlusProcheVoisin aPPV = new AlgoPlusProcheVoisin(villes);
+            Tournee tPPV = aPPV.executer();
+            Console.WriteLine(tPPV.ToString());
+            Console.WriteLine(tPPV.cout());
         }
 
-        public static string[] ReadFile (string fichier)
+        public static string[] LireFichier (string fichier)
         {
             string[] ligne = null;
             try

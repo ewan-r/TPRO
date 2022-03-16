@@ -4,14 +4,17 @@ using System.Text;
 
 namespace TPRO
 {
-    class Tournee
+    public class Tournee
     {
         private ListeVilles listeVille;
-        public ListeVilles LusteVille { get => this.listeVille; }
+        public ListeVilles ListeVille { get => this.listeVille; }
 
-        public Tournee(ListeVilles listeVille)
+        private string nom;
+
+        public Tournee(ListeVilles listeVille,string nom)
         {
             this.listeVille = listeVille;
+            this.nom = nom;
         }
 
         public void ajout(Ville ville)
@@ -19,19 +22,21 @@ namespace TPRO
             this.listeVille.ListVilles.Add(ville);
         }
 
-        public void afficheTour()
+        
+
+        public override string ToString()
         {
-            string s = "tournée croissante [";
-            for(int i = 0; i < this.listeVille.taille(); i++)
+            string s = this.nom + " [";
+            for(int i = 0; i < this.listeVille.taille() - 1; i++)
             {
                 if (i != 0)
                 {
-                    s += ",";
+                    s += ", ";
                 }
                 s += this.listeVille.get(i).Numero;
             }
             s += "]";
-            Console.WriteLine(s);
+            return s;
         }
 
         public double cout()
@@ -45,19 +50,6 @@ namespace TPRO
             return c;
         }
 
-        public Tournee tourAleatoire()
-        {
-            ListeVilles villesAlea = new ListeVilles(this.listeVille);
-            int n = villesAlea.taille();
-            Random r = new Random();
-            int i;
-            while (n > 1)
-            {
-                n--;
-                i = r.Next(n + 1);
-                villesAlea.inverser(i,n);
-            }
-            return new Tournee(villesAlea);
-        }
+        
     }
 }
