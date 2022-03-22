@@ -39,3 +39,16 @@ C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.Cor
 C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.dll
 C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.pdb
 C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.genruntimeconfig.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.exe
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.deps.json
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.runtimeconfig.json
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.runtimeconfig.dev.json
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.AssemblyReference.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.AssemblyInfoInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.AssemblyInfo.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.CoreCompileInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\er642070\GitHub\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.genruntimeconfig.cache

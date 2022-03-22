@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ewanr\\OneDrive\\Bureau\\TPRO\\TPRO\\TPRO.csproj": {}
+    "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\etudiants\\IQ\\IQ-2\\er642070\\GitHub\\TPRO\\TPRO\\TPRO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ewanr\\OneDrive\\Bureau\\TPRO\\TPRO\\TPRO.csproj": {
+    "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\etudiants\\IQ\\IQ-2\\er642070\\GitHub\\TPRO\\TPRO\\TPRO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ewanr\\OneDrive\\Bureau\\TPRO\\TPRO\\TPRO.csproj",
+        "projectUniqueName": "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\etudiants\\IQ\\IQ-2\\er642070\\GitHub\\TPRO\\TPRO\\TPRO.csproj",
         "projectName": "TPRO",
-        "projectPath": "C:\\Users\\ewanr\\OneDrive\\Bureau\\TPRO\\TPRO\\TPRO.csproj",
-        "packagesPath": "C:\\Users\\ewanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ewanr\\OneDrive\\Bureau\\TPRO\\TPRO\\obj\\",
+        "projectPath": "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\etudiants\\IQ\\IQ-2\\er642070\\GitHub\\TPRO\\TPRO\\TPRO.csproj",
+        "packagesPath": "C:\\Users\\er642070\\.nuget\\packages\\",
+        "outputPath": "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\etudiants\\IQ\\IQ-2\\er642070\\GitHub\\TPRO\\TPRO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ewanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\er642070\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
