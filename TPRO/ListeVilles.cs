@@ -26,6 +26,11 @@ namespace TPRO
             }
         }
 
+        public ListeVilles()
+        {
+            this.listVilles = new List<Ville>();
+        }
+
         public ListeVilles(List<Ville> lv)
         {
             this.listVilles = new List<Ville>(lv);

@@ -25,3 +25,17 @@ C:\Users\er642070\Desktop\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.CoreComp
 C:\Users\er642070\Desktop\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.dll
 C:\Users\er642070\Desktop\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.pdb
 C:\Users\er642070\Desktop\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.genruntimeconfig.cache
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.exe
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.deps.json
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.runtimeconfig.json
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.runtimeconfig.dev.json
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.dll
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\bin\Debug\netcoreapp3.1\TPRO.pdb
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.AssemblyReference.cache
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.AssemblyInfoInputs.cache
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.AssemblyInfo.cs
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.csproj.CoreCompileInputs.cache
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.dll
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.pdb
+C:\Users\ewanr\OneDrive\Bureau\TPRO\TPRO\obj\Debug\netcoreapp3.1\TPRO.genruntimeconfig.cache
