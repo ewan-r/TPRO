@@ -1,28 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TPRO
+﻿namespace TPRO
 {
-    public class AlgoSuccPremier : AlgoRechercheLocal
+    public class AlgoSuccPremier : Algo
     {
         public AlgoSuccPremier(ListeVilles listeVilles) : base(listeVilles)
         {
         }
 
-        public override Tournee explorerVoisinage(Tournee t)
+        public Tournee executer(Tournee t)
         {
-            Tournee Tvoisin = t;
-            for (int i = 0; i < t.ListeVille.taille(); i++)
+            Tournee Tcourante = t;
+            bool fini = false;
+            bool trouve = false;
+            while (!fini)
             {
-                if (t.ListeVille.ListVilles.IndexOf(t.ListeVille.get(i)) < (t.ListeVille.taille() - 1))
+                fini = true;
+                Tournee Tvoisin = new Tournee(t);
+                for (int i = 0; i < t.ListeVille.taille()&&!trouve; i++)
                 {
-                    t.ListeVille.inverser(i, i + 1);
+                    if (Tvoisin.ListeVille.ListVilles.IndexOf(Tvoisin.ListeVille.get(i)) < (Tvoisin.ListeVille.taille() - 1))
+                    {
+                        Tvoisin.ListeVille.inverser(i, i + 1);
+
+                    }
+
+                }
+                if (Tvoisin.cout() < Tcourante.cout())
+                {
+                    Tcourante = Tvoisin;
+                    fini = false;
+                    trouve = true;
                 }
             }
-            return t;
+            return Tcourante;
         }
 
-        
+        public override Tournee executer()
+        {
+            throw new System.NotImplementedException();
+        }
+
+       
     }
 }

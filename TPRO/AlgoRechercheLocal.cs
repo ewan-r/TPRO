@@ -19,14 +19,18 @@ namespace TPRO
         {
             Tournee Tcourante = t;
             bool fini = false;
+            bool trouve = false;
             while (!fini)
             {
                 fini = true;
                 Tournee Tvoisin = explorerVoisinage(Tcourante);
+                Console.WriteLine(Tvoisin.cout().ToString());
+                Console.WriteLine(Tcourante.cout().ToString());
                 if (Tvoisin.cout() < Tcourante.cout())
                 {
                     Tcourante = Tvoisin;
                     fini = false;
+                    trouve = true;
                 }
             }
             return Tcourante;

@@ -11,6 +11,8 @@ namespace TPRO
 
         private string nom;
 
+        public string Nom { get => this.nom; }
+
         public Tournee(ListeVilles listeVille,string nom)
         {
             this.listeVille = listeVille;
@@ -21,6 +23,12 @@ namespace TPRO
         {
             this.listeVille = new ListeVilles();
             this.nom = nom;
+        }
+
+        public Tournee(Tournee t)
+        {
+            this.listeVille = new ListeVilles(t.ListeVille);
+            this.nom = t.Nom;
         }
 
         public void ajout(Ville ville)
