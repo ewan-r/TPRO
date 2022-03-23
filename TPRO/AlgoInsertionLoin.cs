@@ -12,7 +12,8 @@ namespace TPRO
 
         public override Tournee executer()
         {
-            List<Ville> villesNV = this.ListeVilles.ListVilles;
+            List<Ville> villesNV = new List<Ville>(this.ListeVilles.ListVilles);
+            List<Ville> villesV = new List<Ville>();
             double distance = -1;
             double distanceCalc;
             Ville vi1 = null;
@@ -39,32 +40,37 @@ namespace TPRO
             Tournee t = new Tournee("insertion loin");
             t.ajout(vi1);
             t.ajout(vi2);
+            villesV.Add(vi1);
+            villesV.Add(vi2);
             villesNV.Remove(vi1);
             villesNV.Remove(vi2);
-
-
+            int i = 0 ;
             while (villesNV.Count != 0)
             {
                 distance = -1;
                 Ville suivant = null;
                 foreach (Ville v in villesNV)
                 {
-                    distanceCalc = v.DistanceMax(t);
+                    distanceCalc = v.Distance(t);
                     if (suivant == null)
                     {
                         suivant = v;
                         distance = distanceCalc;
+                        i = villesV.IndexOf(v.villeAInserer(villesV)) +1;
                     }
                     else if (distanceCalc > distance)
                     {
                         suivant = v;
                         distance = distanceCalc;
+                        i = villesV.IndexOf(v.villeAInserer(villesV)) + 1;
                     }
                 }
 
                 villesNV.Remove(suivant);
-                t.inserVilleMax(suivant);
+                villesV.Insert(i,suivant);
+                t.ajout(suivant, i);
             }
+           
             return t;
         }
     }

@@ -12,7 +12,7 @@ namespace TPRO
 
         public override Tournee executer()
         {
-            List<Ville> villesNV = this.ListeVilles.ListVilles;
+            List<Ville> villesNV = new List<Ville>(this.ListeVilles.ListVilles);
             List<Ville> villesV = new List<Ville>();
             Ville s = villesNV[0];
             villesNV.Remove(s);

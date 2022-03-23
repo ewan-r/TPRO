@@ -9,7 +9,7 @@ namespace TPRO
         {
             string[] fichier = LireFichier("../../../../instances/top80.txt");
             ListeVilles villes = new ListeVilles(fichier);
-            /*double dist = villes.get(0).Distance(villes.get(1));
+            //double dist = villes.get(0).Distance(villes.get(1));
             AlgoCroissant aC = new AlgoCroissant(villes);
             Tournee tC = aC.executer();
             Console.WriteLine(tC.ToString());
@@ -25,12 +25,18 @@ namespace TPRO
             AlgoInsertionProche aIP = new AlgoInsertionProche(villes);
             Tournee tIP = aIP.executer();
             Console.WriteLine(tIP.ToString());
-            Console.WriteLine(tIP.cout());*/
+            Console.WriteLine(tIP.cout());
 
             AlgoInsertionLoin aIL = new AlgoInsertionLoin(villes);
             Tournee tIL = aIL.executer();
             Console.WriteLine(tIL.ToString());
             Console.WriteLine(tIL.cout());
+
+            AlgoSuccPremier aSP = new AlgoSuccPremier(villes);
+            Tournee tSP = new Tournee(villes, "test");
+            tSP = aSP.executer(tSP);
+            Console.WriteLine(tSP.ToString());
+            Console.WriteLine(tSP.cout());
         }
 
         public static string[] LireFichier (string fichier)

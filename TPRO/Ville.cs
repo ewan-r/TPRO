@@ -86,5 +86,33 @@ namespace TPRO
             }
             return d;
         }
+
+        public Ville villeAInserer(List<Ville> l)
+        {
+            double distance = -1;
+            double distanceCalc;
+            Ville suivante;
+            Ville r=null;
+            foreach(Ville v in l)
+            {
+                if (l.IndexOf(v) < l.Count - 1)
+                {
+                    suivante = l[l.IndexOf(v) + 1];
+                }
+                else
+                {
+                    suivante = l[0];
+                }
+
+                distanceCalc = this.Distance(v, suivante);
+
+                if (distanceCalc > distance)
+                {
+                    distance = distanceCalc;
+                    r = v;
+                }
+            }
+            return r;
+        }
     }
 }
