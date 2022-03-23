@@ -21,11 +21,16 @@ namespace TPRO
             AlgoPlusProcheVoisin aPPV = new AlgoPlusProcheVoisin(villes);
             Tournee tPPV = aPPV.executer();
             Console.WriteLine(tPPV.ToString());
-            Console.WriteLine(tPPV.cout());*/
+            Console.WriteLine(tPPV.cout());
             AlgoInsertionProche aIP = new AlgoInsertionProche(villes);
             Tournee tIP = aIP.executer();
             Console.WriteLine(tIP.ToString());
-            Console.WriteLine(tIP.cout());
+            Console.WriteLine(tIP.cout());*/
+
+            AlgoInsertionLoin aIL = new AlgoInsertionLoin(villes);
+            Tournee tIL = aIL.executer();
+            Console.WriteLine(tIL.ToString());
+            Console.WriteLine(tIL.cout());
         }
 
         public static string[] LireFichier (string fichier)

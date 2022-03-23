@@ -38,7 +38,7 @@ namespace TPRO
         public override string ToString()
         {
             string s = this.nom + " [";
-            for(int i = 0; i < this.listeVille.taille() ; i++)
+            for(int i = 0; i < this.listeVille.taille()-1 ; i++)
             {
                 if (i != 0)
                 {
@@ -96,6 +96,40 @@ namespace TPRO
             }
         }
 
-        
+        public void inserVilleMax(Ville v)
+        {
+            double d = 0;
+            double ds;
+            int index = 0;
+            for (int i = 0; i < this.ListeVille.taille() - 1; i++)
+            {
+                ds = v.Distance(this.ListeVille.get(i), this.ListeVille.get(i + 1));
+                if (d == 0)
+                {
+                    d = ds;
+                    index = i + 1;
+                }
+                else if (ds > d)
+                {
+                    d = ds;
+                    index = i + 1;
+                }
+            }
+            ds = v.Distance(this.ListeVille.get(this.ListeVille.taille() - 1), this.ListeVille.get(0));
+            if (ds > d)
+            {
+                d = ds;
+                index = this.ListeVille.taille() + 1;
+            }
+            if (index >= this.listeVille.taille())
+            {
+                this.ajout(v);
+            }
+            else
+            {
+                this.ajout(v, index);
+            }
+        }
+
     }
 }
